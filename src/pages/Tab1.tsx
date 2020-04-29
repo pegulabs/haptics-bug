@@ -23,7 +23,7 @@ const Tab1: React.FC = () => {
       </IonHeader>
       <IonContent>
         <IonRefresher slot="fixed" onIonRefresh={doRefresh}>
-          <IonRefresherContent></IonRefresherContent>
+          <IonRefresherContent />
         </IonRefresher>
         <IonHeader collapse="condense">
           <IonToolbar>
